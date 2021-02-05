@@ -1,0 +1,17 @@
+{
+  "name": "pocket",
+  "version": "0.1.0",
+  "description": "household expenses.",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onesword0618/pocket.git"
+  },
+  "author": "onesword0618 <ao.akua.leo@gmail.com>",
+  "license": "MIT"
+}
