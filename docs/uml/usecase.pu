@@ -1,0 +1,84 @@
+@startuml section-1
+left to right direction
+skinparam packageStyle rectangle
+' content
+' 利用者ができること.
+' Character
+actor 利用者 as user
+' UseCase
+rectangle pocket {
+  user -- (予算を管理する)
+  user -- (経済活動の記録を管理する)
+  user -- (計画と実績の比較結果を評価する)
+}
+
+note bottom of user
+
+* 1ヶ月単位で予算と実績を比較して
+今後の経済活動の計画の参考値に用いたい
+
+end note
+
+note right of 予算を管理する
+
+* 1ヶ月単位での予算管理を提供する
+* 登録、編集、削除、参照
+
+end note
+
+note right of 経済活動の記録を管理する
+
+* 1ヶ月単位での経済活動の記録を提供する
+* 記録の最小単位は1日
+* 登録、編集、削除、参照
+
+end note
+
+note right of 計画と実績の比較結果を評価する
+
+* 月末単位での予算と経済活動の記録を比較して評価することを提供する
+* 予算と経済活動の記録の差分を計算する
+* 自己評価の設定に照らし合わせて評価を判定する
+
+end note
+
+@enduml
+
+@startuml  section-2
+left to right direction
+skinparam packageStyle rectangle
+' content
+' 利用者が予算を管理する.
+' Character
+actor 利用者 as user
+' UseCase
+rectangle pocket {
+  user -- (予算を管理する)
+}
+@enduml
+
+@startuml  section-3
+left to right direction
+skinparam packageStyle rectangle
+' content
+' 利用者が経済活動の記録を管理する.
+' Character
+actor 利用者 as user
+' UseCase
+rectangle pocket {
+  user -- (経済活動の記録を管理する)
+}
+@enduml
+
+@startuml section-4
+left to right direction
+skinparam packageStyle rectangle
+' content
+' 利用者が予算と経済活動の記録を比較して評価する.
+' Character
+actor 利用者 as user
+' UseCase
+rectangle pocket {
+  user -- (予算と経済活動の記録を比較して評価する)
+}
+@enduml
