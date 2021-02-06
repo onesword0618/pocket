@@ -1,0 +1,12 @@
+@startuml  section-1
+start
+' content
+' 予算設定画面
+:年月を選択する;
+if (既に予算が設定されているか) then (yes)
+:入力済みの金額を更新する;
+else (no)
+:金額を入力する;
+endif
+end
+@enduml
