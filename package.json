@@ -2,10 +2,12 @@
   "name": "pocket",
   "version": "0.1.0",
   "description": "household expenses.",
+  "private": "true",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
+    "start": "electron .",
     "test": ""
   },
   "repository": {
@@ -13,5 +15,8 @@
     "url": "https://github.com/onesword0618/pocket.git"
   },
   "author": "onesword0618 <ao.akua.leo@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^11.2.3"
+  }
 }
