@@ -6,6 +6,8 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/onesword0618/pocket?style=plastic)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/onesword0618/pocket?style=plastic)
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/onesword0618/pocket?style=plastic)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=plastic)](https://github.com/prettier/prettier)
+[![code checker: eslint](https://img.shields.io/badge/checker-eslint-blue?style=plastic)](https://github.com/eslint/eslint)
 
 ## Description
 
