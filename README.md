@@ -25,9 +25,15 @@
 
 [package.json](./package.json)
 
+dev : npm run dev ... devtools && electron を起動
+
+clean : npm run clean ... 古いコンパイルしたリソースを削除
+
 build : npm run build ... 配布用資材の構築を実施
 
-start : npm start ... 開発サーバーが起動
+serve : npm run serve ... electron 起動
+
+start : npm start ... clean -> build -> serve の順番でコマンドを起動
 
 ## License
 
