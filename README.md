@@ -37,6 +37,14 @@ serve : npm run serve ... electron 起動
 
 start : npm start ... clean -> build -> serve の順番でコマンドを起動
 
+storybook : npm storybook ... storybook を起動
+
+### Distribution
+
+Windows / Linux - Ubuntu
+
+docker を起動して、その中で、コンパイルを実施する
+
 ## License
 
 - [MIT](./LICENSE)

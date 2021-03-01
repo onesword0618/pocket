@@ -1,7 +1,14 @@
 version: '3.8'
 services:
-  plantuml-server:
+  # UML Tool Server
+  plantuml:
     image: plantuml/plantuml-server
     restart: always
     ports:
       - ${PORT}:8080
+  # electron buid linux
+  linux:
+    image: electronuserland/builder
+  # electron buid windows
+  windows:
+    image: electronuserland/builder:wine
